@@ -23,10 +23,12 @@ LINE 團購群組盛行，前期營業額還不夠支付後台網站月費時，
 
 # 實際測試 - Demo
 這是用戶私訊團購機器人的截圖，只要依照格式填入訂單資訊，機器人會自動記錄，並回傳告知使用者成功失敗：
+<br/>
 ![成功新增訂單](https://user-images.githubusercontent.com/47651623/179910952-435d3506-2f96-4d51-9037-1e4c74b0e556.jpg)
 ![輸入錯誤資訊](https://user-images.githubusercontent.com/47651623/179911909-fc06d421-14f8-4e30-b293-a9a8ed183f6b.jpg)
 
 用戶如果想要查看目前下訂商品的訂單狀態，可以私訊團購機器人「查詢訂單」，機器人會自動回覆三個月內的訂單紀錄，如果沒有訂單也會告知使用者請他快快下單：
+<br/>
 ![查詢訂單有資料](https://user-images.githubusercontent.com/47651623/179919999-43a55db9-99e2-4a73-8590-c7da4c88fa69.jpg)
 ![查無訂單](https://user-images.githubusercontent.com/47651623/179920436-58568d82-8182-47cb-ac8f-ca5b9b138f4a.jpg)
 
