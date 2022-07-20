@@ -38,7 +38,9 @@ LINE 團購群組盛行，前期營業額還不夠支付後台網站月費時，
 ![營收1](https://user-images.githubusercontent.com/47651623/179921773-322ffc6c-5818-4ffa-b1eb-97a6938acad8.jpg)
 ![營收2](https://user-images.githubusercontent.com/47651623/179921793-9cf4ca71-542a-4a46-b411-166593238274.jpg)
 
+<br/>
 
+# 使用方法 How to Use
 
 
 
