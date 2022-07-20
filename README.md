@@ -32,6 +32,12 @@ LINE 團購群組盛行，前期營業額還不夠支付後台網站月費時，
 ![查詢訂單有資料](https://user-images.githubusercontent.com/47651623/179919999-43a55db9-99e2-4a73-8590-c7da4c88fa69.jpg)
 ![查無訂單](https://user-images.githubusercontent.com/47651623/179920436-58568d82-8182-47cb-ac8f-ca5b9b138f4a.jpg)
 
+所有資料都會依照月份存放在 Google Sheet 裡，每隔一個新的月份都會自動創建新的分頁並且帶入計算公式，團主只需要填入單價及成本就會帶出總金額和利潤，
+一切流程皆自動化不需手動更改：
+<br/>
+![營收1](https://user-images.githubusercontent.com/47651623/179921773-322ffc6c-5818-4ffa-b1eb-97a6938acad8.jpg)
+![營收2](https://user-images.githubusercontent.com/47651623/179921793-9cf4ca71-542a-4a46-b411-166593238274.jpg)
+
 
 
 
