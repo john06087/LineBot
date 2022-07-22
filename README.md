@@ -32,24 +32,10 @@
   * 情境 2. 已填入單價 <br/>
   ![營收2](https://user-images.githubusercontent.com/47651623/179921793-9cf4ca71-542a-4a46-b411-166593238274.jpg)
 
+## 參考資料 - references
+* [兩小時打造簡單 Line Chatbot — 使用 Google Apps Script & Google Sheet API](https://medium.com/%E6%8A%80%E8%A1%93%E7%AD%86%E8%A8%98/%E5%85%A9%E5%B0%8F%E6%99%82%E6%89%93%E9%80%A0%E7%B0%A1%E5%96%AE-line-chatbot-%E4%BD%BF%E7%94%A8-google-apps-script-google-sheet-api-8fff7372ff3d "link")
+* [實作 LINE 聊天機器人 ( Google Apps Script )](https://www.oxxostudio.tw/articles/201804/line-bot-apps-script.html "link")
+* [做個 LINE 機器人記錄誰 +1！群組 LINE Bot 製作教學與分享](https://jcshawn.com/addone-linebot/ "link")
+* [如何對 Google Apps Script Debug](https://www.youtube.com/watch?v=e0mZ5dnhHpc&list=PLLrJ9DEA0QKObErDyqvm-Qy8jNZ93vcRU&index=7&ab_channel=Boris%E7%9A%84%E5%88%86%E4%BA%AB%E5%B0%8F%E7%AB%99 "link")
 
-<br/>
-
-# 使用方法 How to Use
-1. 將 app.js 的內容複製，貼到你的 Google App Script 專案上
-![2](https://user-images.githubusercontent.com/47651623/180342740-b4ed318a-07a7-4f24-bc38-480eff5096f2.jpg)
-2. 將 CHANNEL_ACCESS_TOKEN 替換成您的 LINE API Token 權杖：
-   將 sheet_url 替換成您的 Google 試算表連結：
-![1](https://user-images.githubusercontent.com/47651623/180343166-05390547-7f2e-4ace-9e2c-46be817f3fe5.jpg)
-3. 點選 App Script 網頁的部署按鈕，選擇「新增」：
-![3](https://user-images.githubusercontent.com/47651623/180343272-cbe58202-6478-4c52-9e95-abedfdab98ac.jpg)
-4. 設定為「網路應用程式」：
-![4](https://user-images.githubusercontent.com/47651623/180343336-dbf92673-8a25-45d9-9b26-1ff7420b2b26.jpg)
-5. 將存取權限改為「所有人」，再按部署：
-![5](https://user-images.githubusercontent.com/47651623/180343387-94f3bfe6-0f97-4de5-aa12-a63d63001edd.jpg)
-6. 接著瀏覽器會出現小視窗，點按「授與存取權」：
-![4](https://user-images.githubusercontent.com/47651623/180343444-1327229c-95d4-45df-a4a5-a6f5b3b0611d.png)
-7. 選取 Google 帳號後，點選左下小灰字「顯示進階設定」，並點選做下方的「Go To ****」：
-![8](https://user-images.githubusercontent.com/47651623/180343623-df7bcb95-3e9a-45d9-8056-73c144a358b4.jpg)
-8. 點選允許：
 
