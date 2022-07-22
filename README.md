@@ -1,50 +1,37 @@
 > # Line 團購機器人
 
-
 ## 實作動機 - motivation
 家人想要想要建立一個團購群組作為副業，但客人下定商品時總是用私訊或是直接在貼文底下留言，統計起來非常困擾，
 於是在想減輕家人負擔的情況下，建立了一支可以自動記錄顧客訂單的「LINE 團購機器人」。
 
-## 檔案簡介 - motivation
-## 使用技術 - motivation
-## 功能展示 - motivation
+## 檔案簡介 - introduction
+* **App.js** - Line 機器人運作邏輯
+* **Sheet 範例格式.xlsx** - 寫入 Google Sheet 範例格式
 
-LINE 團購群組盛行，前期營業額還不夠支付後台網站月費時，只好用免費的 Google Sheet 來記錄啦 ~
-「LINE 團購機器人」當使用者以固定格式私訊官方帳號，機器人會幫忙記錄到 Google 試算表，並且連成本、總金額都計算好囉！
+## 使用技術 - skill
+* 運用 Webhook 連結 Line & Google Sheet，達到自動記錄的效果
+* 了解無伺服器概念，讓 Coding 人員專注於程式邏輯開發
+* 語法使用 JavaScript 
 
-<br/>
-
-
-
-<br/>
-
-# 功能 - Features
-<ul dir="auto">
-  <li>當使用者私訊官方帳號，自動識別「訂單格式」的訊息，將訂單資訊記錄到 Google Sheet</li>
-  <li>基礎驗證使用者的訂單內容是否有誤，並通知使用者需要修正的地方</li>
-  <li>可以查詢用戶三個月內訂購的訂單，檢視自己目前所有訂單的狀態</li>
-  <li>搭配 Google 試算表做免費資料庫，成本、利潤一覽無遺</li>
-  <li>使用 Google App Script 語法開發</li>
-</ul>
-
-<br/>
-
-# 實際測試 - Demo
-這是用戶私訊團購機器人的截圖，只要依照格式填入訂單資訊，機器人會自動記錄，並回傳告知使用者成功失敗：
-<br/>
+## 功能展示 - demo
+* **新增訂單** - 偵測用戶私訊內容，若符合訂單格式，機器人會自動記錄，並回傳告知使用者成功失敗： 
+  * 情境 1. 驗證資料正確 <br/>
 ![成功新增訂單](https://user-images.githubusercontent.com/47651623/179910952-435d3506-2f96-4d51-9037-1e4c74b0e556.jpg)
+  * 情境 2. 驗證資料錯誤 <br/>
 ![輸入錯誤資訊](https://user-images.githubusercontent.com/47651623/179911909-fc06d421-14f8-4e30-b293-a9a8ed183f6b.jpg)
 
-用戶如果想要查看目前下訂商品的訂單狀態，可以私訊團購機器人「查詢訂單」，機器人會自動回覆三個月內的訂單紀錄，如果沒有訂單也會告知使用者請他快快下單：
-<br/>
-![查詢訂單有資料](https://user-images.githubusercontent.com/47651623/179919999-43a55db9-99e2-4a73-8590-c7da4c88fa69.jpg)
-![查無訂單](https://user-images.githubusercontent.com/47651623/179920436-58568d82-8182-47cb-ac8f-ca5b9b138f4a.jpg)
+* **查詢訂單** - 若用戶私訊"查詢訂單"，機器人會查詢用戶過去三個月內的訂單資訊，並回傳給使用者： 
+  * 情境 1. 三個月內有下定過商品 <br/>
+  ![查詢訂單有資料](https://user-images.githubusercontent.com/47651623/179919999-43a55db9-99e2-4a73-8590-c7da4c88fa69.jpg)
+  * 情境 2. 三個月內無下定商品 <br/>
+  ![查無訂單](https://user-images.githubusercontent.com/47651623/179920436-58568d82-8182-47cb-ac8f-ca5b9b138f4a.jpg)
+  
+* **自動記錄 Google Sheet** - 用戶新增的訂單都會自動記錄在 Google 試算表，並且帶入成本及利潤的計算公式： 
+  * 情境 1. 未輸入單價 <br/>
+  ![營收1](https://user-images.githubusercontent.com/47651623/179921773-322ffc6c-5818-4ffa-b1eb-97a6938acad8.jpg)
+  * 情境 2. 已填入單價 <br/>
+  ![營收2](https://user-images.githubusercontent.com/47651623/179921793-9cf4ca71-542a-4a46-b411-166593238274.jpg)
 
-所有資料都會依照月份存放在 Google Sheet 裡，每隔一個新的月份都會自動創建新的分頁並且帶入計算公式，團主只需要填入金額及單價就會帶出總金額、成本、獲利，
-一切流程皆自動化不需手動更改：
-<br/>
-![營收1](https://user-images.githubusercontent.com/47651623/179921773-322ffc6c-5818-4ffa-b1eb-97a6938acad8.jpg)
-![營收2](https://user-images.githubusercontent.com/47651623/179921793-9cf4ca71-542a-4a46-b411-166593238274.jpg)
 
 <br/>
 
