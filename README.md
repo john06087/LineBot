@@ -36,6 +36,6 @@
 * [兩小時打造簡單 Line Chatbot — 使用 Google Apps Script & Google Sheet API](https://medium.com/%E6%8A%80%E8%A1%93%E7%AD%86%E8%A8%98/%E5%85%A9%E5%B0%8F%E6%99%82%E6%89%93%E9%80%A0%E7%B0%A1%E5%96%AE-line-chatbot-%E4%BD%BF%E7%94%A8-google-apps-script-google-sheet-api-8fff7372ff3d "link")
 * [實作 LINE 聊天機器人 ( Google Apps Script )](https://www.oxxostudio.tw/articles/201804/line-bot-apps-script.html "link")
 * [做個 LINE 機器人記錄誰 +1！群組 LINE Bot 製作教學與分享](https://jcshawn.com/addone-linebot/ "link")
-* [如何對 Google Apps Script Debug](https://www.youtube.com/watch?v=e0mZ5dnhHpc&list=PLLrJ9DEA0QKObErDyqvm-Qy8jNZ93vcRU&index=7&ab_channel=Boris%E7%9A%84%E5%88%86%E4%BA%AB%E5%B0%8F%E7%AB%99 "link")
-
+* [對 Google Apps Script Debug - 1](https://dotblogs.com.tw/xinyikao/2022/02/05/170535)
+* [對 Google Apps Script Debug - 2](https://www.youtube.com/watch?v=e0mZ5dnhHpc&list=PLLrJ9DEA0QKObErDyqvm-Qy8jNZ93vcRU&index=7&ab_channel=Boris%E7%9A%84%E5%88%86%E4%BA%AB%E5%B0%8F%E7%AB%99 "link")
 
